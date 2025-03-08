@@ -5,6 +5,7 @@
   "authors": [
     "Matthias Georgi <matti.georgi@gmail.com>"
   ],
+  "repo_id": "nodetool-ai/nodetool-lib-file",
   "nodes": [
     {
       "title": "Add Heading",
@@ -187,7 +188,7 @@
               "RIGHT",
               "JUSTIFY"
             ],
-            "type_name": "lib.file.docx.ParagraphAlignment"
+            "type_name": "nodetool.nodes.lib.file.docx.ParagraphAlignment"
           },
           "default": "LEFT",
           "title": "Alignment",
@@ -794,7 +795,7 @@
               "typst",
               "vimwiki"
             ],
-            "type_name": "lib.file.pandoc.InputFormat"
+            "type_name": "nodetool.nodes.lib.file.pandoc.InputFormat"
           },
           "default": "markdown",
           "title": "Input Format",
@@ -826,7 +827,7 @@
               "texinfo",
               "zimwiki"
             ],
-            "type_name": "lib.file.pandoc.OutputFormat"
+            "type_name": "nodetool.nodes.lib.file.pandoc.OutputFormat"
           },
           "default": "pdf",
           "title": "Output Format",
@@ -932,7 +933,7 @@
               "typst",
               "vimwiki"
             ],
-            "type_name": "lib.file.pandoc.InputFormat"
+            "type_name": "nodetool.nodes.lib.file.pandoc.InputFormat"
           },
           "title": "Input Format",
           "description": "Input format"
@@ -963,7 +964,7 @@
               "texinfo",
               "zimwiki"
             ],
-            "type_name": "lib.file.pandoc.OutputFormat"
+            "type_name": "nodetool.nodes.lib.file.pandoc.OutputFormat"
           },
           "title": "Output Format",
           "description": "Output format"
