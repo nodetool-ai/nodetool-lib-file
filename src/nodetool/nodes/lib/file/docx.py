@@ -142,8 +142,8 @@ class AddImage(BaseNode):
         default=DocumentRef(), description="The document to add the image to"
     )
     image: ImageRef = Field(default=ImageRef(), description="The image to add")
-    width: float = Field(default=None, description="Image width in inches")
-    height: float = Field(default=None, description="Image height in inches")
+    width: float = Field(default=0, description="Image width in inches")
+    height: float = Field(default=0, description="Image height in inches")
 
     async def process(self, context: ProcessingContext) -> DocumentRef:
         width = Inches(self.width) if self.width else None
