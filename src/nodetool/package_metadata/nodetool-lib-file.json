@@ -91,6 +91,7 @@
           "type": {
             "type": "float"
           },
+          "default": 0,
           "title": "Width",
           "description": "Image width in inches"
         },
@@ -99,6 +100,7 @@
           "type": {
             "type": "float"
           },
+          "default": 0,
           "title": "Height",
           "description": "Image height in inches"
         }
