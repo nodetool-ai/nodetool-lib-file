@@ -10,8 +10,8 @@
     {
       "title": "Add Heading",
       "description": "Adds a heading to the document\n    document, docx, heading, format",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.AddHeading",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.AddHeading",
       "layout": "default",
       "properties": [
         {
@@ -64,8 +64,8 @@
     {
       "title": "Add Image",
       "description": "Adds an image to the document\n    document, docx, image, format",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.AddImage",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.AddImage",
       "layout": "default",
       "properties": [
         {
@@ -126,8 +126,8 @@
     {
       "title": "Add Page Break",
       "description": "Adds a page break to the document\n    document, docx, format, layout",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.AddPageBreak",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.AddPageBreak",
       "layout": "default",
       "properties": [
         {
@@ -158,8 +158,8 @@
     {
       "title": "Add Paragraph",
       "description": "Adds a paragraph of text to the document\n    document, docx, text, format",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.AddParagraph",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.AddParagraph",
       "layout": "default",
       "properties": [
         {
@@ -190,7 +190,7 @@
               "RIGHT",
               "JUSTIFY"
             ],
-            "type_name": "nodetool.nodes.lib.file.docx.ParagraphAlignment"
+            "type_name": "nodetool.nodes.lib.docx.ParagraphAlignment"
           },
           "default": "LEFT",
           "title": "Alignment",
@@ -247,8 +247,8 @@
     {
       "title": "Add Table",
       "description": "Adds a table to the document\n    document, docx, table, format",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.AddTable",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.AddTable",
       "layout": "default",
       "properties": [
         {
@@ -289,8 +289,8 @@
     {
       "title": "Create Document",
       "description": "Creates a new Word document\n    document, docx, file, create",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.CreateDocument",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.CreateDocument",
       "layout": "default",
       "properties": [],
       "outputs": [
@@ -309,8 +309,8 @@
     {
       "title": "Load Word Document",
       "description": "Loads a Word document from disk\n    document, docx, file, load, input",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.LoadWordDocument",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.LoadWordDocument",
       "layout": "default",
       "properties": [
         {
@@ -341,8 +341,8 @@
     {
       "title": "Save Document",
       "description": "Writes the document to a file\n    document, docx, file, save, output",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.SaveDocument",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.SaveDocument",
       "layout": "default",
       "properties": [
         {
@@ -386,8 +386,8 @@
     {
       "title": "Set Document Properties",
       "description": "Sets document metadata properties\n    document, docx, metadata, properties",
-      "namespace": "lib.file.docx",
-      "node_type": "lib.file.docx.SetDocumentProperties",
+      "namespace": "lib.docx",
+      "node_type": "lib.docx.SetDocumentProperties",
       "layout": "default",
       "properties": [
         {
@@ -458,8 +458,8 @@
     {
       "title": "Extract Images",
       "description": "Extract images from a PDF file.\n    pdf, image, extract\n\n    Use cases:\n    - Extract embedded images from PDF documents\n    - Save PDF images as separate files\n    - Process PDF images for analysis",
-      "namespace": "lib.file.pdfplumber",
-      "node_type": "lib.file.pdfplumber.ExtractImages",
+      "namespace": "lib.pdfplumber",
+      "node_type": "lib.pdfplumber.ExtractImages",
       "layout": "default",
       "properties": [
         {
@@ -514,8 +514,8 @@
     {
       "title": "Extract Page Metadata",
       "description": "Extract metadata from PDF pages like dimensions, rotation, etc.\n    pdf, metadata, pages\n\n    Use cases:\n    - Analyze page layouts\n    - Get page dimensions\n    - Check page orientations",
-      "namespace": "lib.file.pdfplumber",
-      "node_type": "lib.file.pdfplumber.ExtractPageMetadata",
+      "namespace": "lib.pdfplumber",
+      "node_type": "lib.pdfplumber.ExtractPageMetadata",
       "layout": "default",
       "properties": [
         {
@@ -570,8 +570,8 @@
     {
       "title": "Extract Tables",
       "description": "Extract tables from a PDF file into dataframes.\n    pdf, tables, dataframe, extract\n\n    Use cases:\n    - Extract tabular data from PDF documents\n    - Convert PDF tables to structured data formats\n    - Process PDF tables for analysis\n    - Import PDF reports into data analysis pipelines",
-      "namespace": "lib.file.pdfplumber",
-      "node_type": "lib.file.pdfplumber.ExtractTables",
+      "namespace": "lib.pdfplumber",
+      "node_type": "lib.pdfplumber.ExtractTables",
       "layout": "default",
       "properties": [
         {
@@ -649,8 +649,8 @@
     {
       "title": "Extract Text",
       "description": "Extract text content from a PDF file.\n    pdf, text, extract\n\n    Use cases:\n    - Convert PDF documents to plain text\n    - Extract content for analysis\n    - Enable text search in PDF documents",
-      "namespace": "lib.file.pdfplumber",
-      "node_type": "lib.file.pdfplumber.ExtractText",
+      "namespace": "lib.pdfplumber",
+      "node_type": "lib.pdfplumber.ExtractText",
       "layout": "default",
       "properties": [
         {
@@ -701,8 +701,8 @@
     {
       "title": "Get Page Count",
       "description": "Get the total number of pages in a PDF file.\n    pdf, pages, count\n\n    Use cases:\n    - Check document length\n    - Plan batch processing",
-      "namespace": "lib.file.pdfplumber",
-      "node_type": "lib.file.pdfplumber.GetPageCount",
+      "namespace": "lib.pdfplumber",
+      "node_type": "lib.pdfplumber.GetPageCount",
       "layout": "default",
       "properties": [
         {
@@ -732,8 +732,8 @@
     {
       "title": "Convert File",
       "description": "Converts between different document formats using pandoc.\n    convert, document, format, pandoc\n\n    Use cases:\n    - Convert between various document formats (Markdown, HTML, LaTeX, etc.)\n    - Generate documentation in different formats\n    - Create publication-ready documents",
-      "namespace": "lib.file.pandoc",
-      "node_type": "lib.file.pandoc.ConvertFile",
+      "namespace": "lib.pandoc",
+      "node_type": "lib.pandoc.ConvertFile",
       "layout": "default",
       "properties": [
         {
@@ -797,7 +797,7 @@
               "typst",
               "vimwiki"
             ],
-            "type_name": "nodetool.nodes.lib.file.pandoc.InputFormat"
+            "type_name": "nodetool.nodes.lib.pandoc.InputFormat"
           },
           "default": "markdown",
           "title": "Input Format",
@@ -829,7 +829,7 @@
               "texinfo",
               "zimwiki"
             ],
-            "type_name": "nodetool.nodes.lib.file.pandoc.OutputFormat"
+            "type_name": "nodetool.nodes.lib.pandoc.OutputFormat"
           },
           "default": "pdf",
           "title": "Output Format",
@@ -871,8 +871,8 @@
     {
       "title": "Convert Text",
       "description": "Converts text content between different document formats using pandoc.\n    convert, text, format, pandoc\n\n    Use cases:\n    - Convert text content between various formats (Markdown, HTML, LaTeX, etc.)\n    - Transform content without saving to disk\n    - Process text snippets in different formats",
-      "namespace": "lib.file.pandoc",
-      "node_type": "lib.file.pandoc.ConvertText",
+      "namespace": "lib.pandoc",
+      "node_type": "lib.pandoc.ConvertText",
       "layout": "default",
       "properties": [
         {
@@ -935,7 +935,7 @@
               "typst",
               "vimwiki"
             ],
-            "type_name": "nodetool.nodes.lib.file.pandoc.InputFormat"
+            "type_name": "nodetool.nodes.lib.pandoc.InputFormat"
           },
           "title": "Input Format",
           "description": "Input format"
@@ -966,7 +966,7 @@
               "texinfo",
               "zimwiki"
             ],
-            "type_name": "nodetool.nodes.lib.file.pandoc.OutputFormat"
+            "type_name": "nodetool.nodes.lib.pandoc.OutputFormat"
           },
           "title": "Output Format",
           "description": "Output format"
@@ -1007,8 +1007,8 @@
     {
       "title": "Auto Fit Columns",
       "description": "Automatically adjusts column widths to fit content.\n    excel, format, columns\n\n    Use cases:\n    - Improve spreadsheet readability\n    - Professional presentation",
-      "namespace": "lib.file.excel",
-      "node_type": "lib.file.excel.AutoFitColumns",
+      "namespace": "lib.excel",
+      "node_type": "lib.excel.AutoFitColumns",
       "layout": "default",
       "properties": [
         {
@@ -1049,8 +1049,8 @@
     {
       "title": "Create Workbook",
       "description": "Creates a new Excel workbook.\n    excel, workbook, create\n\n    Use cases:\n    - Initialize new Excel files\n    - Start spreadsheet creation workflows",
-      "namespace": "lib.file.excel",
-      "node_type": "lib.file.excel.CreateWorkbook",
+      "namespace": "lib.excel",
+      "node_type": "lib.excel.CreateWorkbook",
       "layout": "default",
       "properties": [
         {
@@ -1081,8 +1081,8 @@
     {
       "title": "Data Frame To Excel",
       "description": "Writes a DataFrame to an Excel worksheet.\n    excel, dataframe, export\n\n    Use cases:\n    - Export data analysis results\n    - Create reports from data",
-      "namespace": "lib.file.excel",
-      "node_type": "lib.file.excel.DataFrameToExcel",
+      "namespace": "lib.excel",
+      "node_type": "lib.excel.DataFrameToExcel",
       "layout": "default",
       "properties": [
         {
@@ -1153,8 +1153,8 @@
     {
       "title": "Excel To Data Frame",
       "description": "Reads an Excel worksheet into a pandas DataFrame.\n    excel, dataframe, import\n\n    Use cases:\n    - Import Excel data for analysis\n    - Process spreadsheet contents",
-      "namespace": "lib.file.excel",
-      "node_type": "lib.file.excel.ExcelToDataFrame",
+      "namespace": "lib.excel",
+      "node_type": "lib.excel.ExcelToDataFrame",
       "layout": "default",
       "properties": [
         {
@@ -1205,8 +1205,8 @@
     {
       "title": "Format Cells",
       "description": "Applies formatting to a range of cells.\n    excel, format, style\n\n    Use cases:\n    - Highlight important data\n    - Create professional looking reports",
-      "namespace": "lib.file.excel",
-      "node_type": "lib.file.excel.FormatCells",
+      "namespace": "lib.excel",
+      "node_type": "lib.excel.FormatCells",
       "layout": "default",
       "properties": [
         {
@@ -1287,8 +1287,8 @@
     {
       "title": "Save Workbook",
       "description": "Saves an Excel workbook to disk.\n    excel, save, export\n\n    Use cases:\n    - Export final spreadsheet\n    - Save work in progress",
-      "namespace": "lib.file.excel",
-      "node_type": "lib.file.excel.SaveWorkbook",
+      "namespace": "lib.excel",
+      "node_type": "lib.excel.SaveWorkbook",
       "layout": "default",
       "properties": [
         {
@@ -1326,584 +1326,6 @@
         "workbook",
         "folder",
         "filename"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Convert To Markdown",
-      "description": "Converts various document formats to markdown using MarkItDown.\n    markdown, convert, document\n\n    Use cases:\n    - Convert Word documents to markdown\n    - Convert Excel files to markdown tables\n    - Convert PowerPoint to markdown content",
-      "namespace": "lib.file.markitdown",
-      "node_type": "lib.file.markitdown.ConvertToMarkdown",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "document",
-          "type": {
-            "type": "document"
-          },
-          "default": {},
-          "title": "Document",
-          "description": "The document to convert to markdown"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "str"
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "document"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Bullet Lists",
-      "description": "Extracts bulleted lists from markdown.\n    markdown, lists, bullets, extraction\n\n    Use cases:\n    - Extract unordered list items\n    - Analyze bullet point structures\n    - Convert bullet lists to structured data",
-      "namespace": "lib.file.markdown",
-      "node_type": "lib.file.markdown.ExtractBulletLists",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "markdown",
-          "type": {
-            "type": "str"
-          },
-          "default": "",
-          "title": "Markdown",
-          "description": "The markdown text to analyze"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "dict",
-                "type_args": [
-                  {
-                    "type": "str"
-                  },
-                  {
-                    "type": "any"
-                  }
-                ]
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "markdown"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Code Blocks",
-      "description": "Extracts code blocks and their languages from markdown.\n    markdown, code, extraction\n\n    Use cases:\n    - Extract code samples for analysis\n    - Collect programming examples\n    - Analyze code snippets in documentation",
-      "namespace": "lib.file.markdown",
-      "node_type": "lib.file.markdown.ExtractCodeBlocks",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "markdown",
-          "type": {
-            "type": "str"
-          },
-          "default": "",
-          "title": "Markdown",
-          "description": "The markdown text to analyze"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "dict",
-                "type_args": [
-                  {
-                    "type": "str"
-                  },
-                  {
-                    "type": "str"
-                  }
-                ]
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "markdown"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Headers",
-      "description": "Extracts headers and creates a document structure/outline.\n    markdown, headers, structure\n\n    Use cases:\n    - Generate table of contents\n    - Analyze document structure\n    - Extract main topics from documents",
-      "namespace": "lib.file.markdown",
-      "node_type": "lib.file.markdown.ExtractHeaders",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "markdown",
-          "type": {
-            "type": "str"
-          },
-          "default": "",
-          "title": "Markdown",
-          "description": "The markdown text to analyze"
-        },
-        {
-          "name": "max_level",
-          "type": {
-            "type": "int"
-          },
-          "default": 6,
-          "title": "Max Level",
-          "description": "Maximum header level to extract (1-6)",
-          "min": 1.0,
-          "max": 6.0
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "dict",
-                "type_args": [
-                  {
-                    "type": "str"
-                  },
-                  {
-                    "type": "any"
-                  }
-                ]
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "markdown",
-        "max_level"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Links",
-      "description": "Extracts all links from markdown text.\n    markdown, links, extraction\n\n    Use cases:\n    - Extract references and citations from academic documents\n    - Build link graphs from markdown documentation\n    - Analyze external resources referenced in markdown files",
-      "namespace": "lib.file.markdown",
-      "node_type": "lib.file.markdown.ExtractLinks",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "markdown",
-          "type": {
-            "type": "str"
-          },
-          "default": "",
-          "title": "Markdown",
-          "description": "The markdown text to analyze"
-        },
-        {
-          "name": "include_titles",
-          "type": {
-            "type": "bool"
-          },
-          "default": true,
-          "title": "Include Titles",
-          "description": "Whether to include link titles in output"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "dict",
-                "type_args": [
-                  {
-                    "type": "str"
-                  },
-                  {
-                    "type": "str"
-                  }
-                ]
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "markdown",
-        "include_titles"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Numbered Lists",
-      "description": "Extracts numbered lists from markdown.\n    markdown, lists, numbered, extraction\n\n    Use cases:\n    - Extract ordered list items\n    - Analyze enumerated structures\n    - Convert numbered lists to structured data",
-      "namespace": "lib.file.markdown",
-      "node_type": "lib.file.markdown.ExtractNumberedLists",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "markdown",
-          "type": {
-            "type": "str"
-          },
-          "default": "",
-          "title": "Markdown",
-          "description": "The markdown text to analyze"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "str"
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "markdown"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Tables",
-      "description": "Extracts tables from markdown and converts them to structured data.\n    markdown, tables, data\n\n    Use cases:\n    - Extract tabular data from markdown\n    - Convert markdown tables to structured formats\n    - Analyze tabulated information",
-      "namespace": "lib.file.markdown",
-      "node_type": "lib.file.markdown.ExtractTables",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "markdown",
-          "type": {
-            "type": "str"
-          },
-          "default": "",
-          "title": "Markdown",
-          "description": "The markdown text to analyze"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "dataframe"
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "markdown"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Markdown",
-      "description": "Convert PDF to Markdown format using pymupdf4llm.\n    pdf, markdown, convert\n\n    Use cases:\n    - Convert PDF documents to markdown format\n    - Preserve document structure in markdown\n    - Create editable markdown from PDFs",
-      "namespace": "lib.file.pymupdf",
-      "node_type": "lib.file.pymupdf.ExtractMarkdown",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "pdf",
-          "type": {
-            "type": "document"
-          },
-          "default": {},
-          "title": "Pdf",
-          "description": "The PDF document to convert to markdown"
-        },
-        {
-          "name": "start_page",
-          "type": {
-            "type": "int"
-          },
-          "default": 0,
-          "title": "Start Page",
-          "description": "First page to extract (0-based index)"
-        },
-        {
-          "name": "end_page",
-          "type": {
-            "type": "int"
-          },
-          "default": -1,
-          "title": "End Page",
-          "description": "Last page to extract (-1 for last page)"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "str"
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "pdf",
-        "start_page",
-        "end_page"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Tables",
-      "description": "Extract tables from a PDF document using PyMuPDF.\n    pdf, tables, extract, structured\n\n    Use cases:\n    - Extract tabular data from PDFs\n    - Convert PDF tables to structured formats\n    - Analyze table layouts and content",
-      "namespace": "lib.file.pymupdf",
-      "node_type": "lib.file.pymupdf.ExtractTables",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "pdf",
-          "type": {
-            "type": "document"
-          },
-          "default": {},
-          "title": "Pdf",
-          "description": "The PDF document to extract tables from"
-        },
-        {
-          "name": "start_page",
-          "type": {
-            "type": "int"
-          },
-          "default": 0,
-          "title": "Start Page",
-          "description": "First page to extract (0-based index)"
-        },
-        {
-          "name": "end_page",
-          "type": {
-            "type": "int"
-          },
-          "default": -1,
-          "title": "End Page",
-          "description": "Last page to extract (-1 for last page)"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "dict"
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "pdf",
-        "start_page",
-        "end_page"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Text",
-      "description": "Extract plain text from a PDF document using PyMuPDF.\n    pdf, text, extract\n\n    Use cases:\n    - Extract raw text content from PDFs\n    - Convert PDF documents to plain text\n    - Prepare text for further processing",
-      "namespace": "lib.file.pymupdf",
-      "node_type": "lib.file.pymupdf.ExtractText",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "pdf",
-          "type": {
-            "type": "document"
-          },
-          "default": {},
-          "title": "Pdf",
-          "description": "The PDF document to extract text from"
-        },
-        {
-          "name": "start_page",
-          "type": {
-            "type": "int"
-          },
-          "default": 0,
-          "title": "Start Page",
-          "description": "First page to extract (0-based index)"
-        },
-        {
-          "name": "end_page",
-          "type": {
-            "type": "int"
-          },
-          "default": -1,
-          "title": "End Page",
-          "description": "Last page to extract (-1 for last page)"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "str"
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "pdf",
-        "start_page",
-        "end_page"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Text Blocks",
-      "description": "Extract text blocks with their bounding boxes from a PDF.\n    pdf, text, blocks, layout\n\n    Use cases:\n    - Analyze text layout and structure\n    - Extract text while preserving block-level formatting\n    - Get text position information",
-      "namespace": "lib.file.pymupdf",
-      "node_type": "lib.file.pymupdf.ExtractTextBlocks",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "pdf",
-          "type": {
-            "type": "document"
-          },
-          "default": {},
-          "title": "Pdf",
-          "description": "The PDF document to extract text blocks from"
-        },
-        {
-          "name": "start_page",
-          "type": {
-            "type": "int"
-          },
-          "default": 0,
-          "title": "Start Page",
-          "description": "First page to extract (0-based index)"
-        },
-        {
-          "name": "end_page",
-          "type": {
-            "type": "int"
-          },
-          "default": -1,
-          "title": "End Page",
-          "description": "Last page to extract (-1 for last page)"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "dict"
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "pdf",
-        "start_page",
-        "end_page"
-      ],
-      "is_dynamic": false
-    },
-    {
-      "title": "Extract Text With Style",
-      "description": "Extract text with style information (font, size, color) from a PDF.\n    pdf, text, style, formatting\n\n    Use cases:\n    - Preserve text formatting during extraction\n    - Analyze document styling\n    - Extract text with font information",
-      "namespace": "lib.file.pymupdf",
-      "node_type": "lib.file.pymupdf.ExtractTextWithStyle",
-      "layout": "default",
-      "properties": [
-        {
-          "name": "pdf",
-          "type": {
-            "type": "document"
-          },
-          "default": {},
-          "title": "Pdf",
-          "description": "The PDF document to extract styled text from"
-        },
-        {
-          "name": "start_page",
-          "type": {
-            "type": "int"
-          },
-          "default": 0,
-          "title": "Start Page",
-          "description": "First page to extract (0-based index)"
-        },
-        {
-          "name": "end_page",
-          "type": {
-            "type": "int"
-          },
-          "default": -1,
-          "title": "End Page",
-          "description": "Last page to extract (-1 for last page)"
-        }
-      ],
-      "outputs": [
-        {
-          "type": {
-            "type": "list",
-            "type_args": [
-              {
-                "type": "dict"
-              }
-            ]
-          },
-          "name": "output"
-        }
-      ],
-      "the_model_info": {},
-      "recommended_models": [],
-      "basic_fields": [
-        "pdf",
-        "start_page",
-        "end_page"
       ],
       "is_dynamic": false
     }
